@@ -1,8 +1,8 @@
-Matsidiso.Java
-java.util.Scanner;
+ Matsidiso.Java
+ java.util.Scanner;
 
 Scanner scanner = new Scanner(System.in);
-              
+             
  Employee employee = new Employee();
                
  System.out.print("Enter Employee ID: ");
@@ -12,7 +12,7 @@ Scanner scanner = new Scanner(System.in);
         
  System.out.print("Enter Last Name: ");
  employee.setLastName(scanner.nextLine());
-               
+              
   System.out.println(employee);
         
   scanner.close();

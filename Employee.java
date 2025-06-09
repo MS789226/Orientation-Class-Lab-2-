@@ -1,4 +1,4 @@
-Employee.java
+ Employee.java
 
 
  class Employee {
@@ -8,7 +8,7 @@ Employee.java
     private String lastName;
 
     
-     getEmployeeId() {
+      getEmployeeId() {
         return employeeId;
     }
 
@@ -21,7 +21,7 @@ Employee.java
         return firstName;
     }
 
-      setFirstName(String firstName) {
+     setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
